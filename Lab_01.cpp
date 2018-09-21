@@ -1,7 +1,7 @@
 // Ben Howe
 // Lab 01
 // COSC 2030, Fall 2018
-// 9/17/2018
+// 9/20/2018
 
 // Read double numbers from a file and display number count, first number
 // second number, next-to-last number, and last number.
@@ -73,7 +73,7 @@ int main()
       buffer = currNumber;
 
       /*
-      it ws necessary to put a buffer between the current and previous numbers
+      it was necessary to put a buffer between the current and previous numbers
       because the previous number would get overweritten by the current number
       when the input filestream reads past the end of the file. 
       In essense the last pass through the while loop needs to be ignored.
